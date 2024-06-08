@@ -21,3 +21,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/master', function () {
+    return view('layouts.master');
+});
+
+
